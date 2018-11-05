@@ -1,0 +1,83 @@
+.titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 40px;
+	text-decoration: underline;
+}
+table, th, td {
+	border: 1px solid;
+
+}
+.text_lef {
+	text-align: left;
+}
+table.center {
+	margin-left:auto; 
+	margin-right:auto;
+	width: 100%;
+}
+table.center80 {
+	margin-left:auto; 
+	margin-right:auto;
+	width: 30%;
+}
+
+.text_rig {
+	text-align: right;
+}
+
+.logo_width {
+	width: 20%;
+}
+
+.logo_text {
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.backcolor {
+
+	background-color: lightblue;
+}
+.foot_h {
+	height: 10px;
+	/*background-color: #7FBCC4;*/
+}
+body {
+	background-image: url("../images/background.jpg");
+}
+textarea { 
+	background-color:lightblue
+}
+input[name] { 
+	background-color:lightblue
+}
+select { 
+	background-color:lightblue
+}
+option[value=wp] { 
+	background-color:lightblue 
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	color: green;
+}
+a:active {
+    color: red;
+}
+span {
+    float: left;
+    width: 0.7em;
+    font-size: 500%;
+    font-family: algerian, courier;
+    line-height: 40%;
+	padding: 10px;
+}
